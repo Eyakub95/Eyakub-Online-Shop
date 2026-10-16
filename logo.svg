@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="বাজার হিসাব"><defs><radialGradient id="bg" cx="50%" cy="36%" r="72%"><stop offset="0" stop-color="#16704F"/><stop offset="1" stop-color="#06301F"/></radialGradient>
+<linearGradient id="rg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9BE845"/><stop offset="1" stop-color="#3DB32B"/></linearGradient></defs><circle cx="256" cy="256" r="250" fill="url(#rg)"/><circle cx="256" cy="256" r="233" fill="url(#bg)"/><!-- roof + chimney + window -->
+<rect x="350" y="86" width="32" height="70" rx="4" fill="#fff"/>
+<path d="M92 204 L256 68 L420 204" fill="none" stroke="#fff" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#fff"><rect x="236" y="118" width="16" height="16" rx="3"/><rect x="258" y="118" width="16" height="16" rx="3"/><rect x="236" y="140" width="16" height="16" rx="3"/><rect x="258" y="140" width="16" height="16" rx="3"/></g>
+<!-- steam -->
+<g fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".92">
+<path d="M148 252 C132 232 164 220 148 198"/><path d="M178 252 C162 230 194 218 178 192"/>
+</g>
+<!-- pot -->
+<g>
+<rect x="100" y="270" width="140" height="82" rx="30" fill="#161616" stroke="#fff" stroke-width="8"/>
+<rect x="84" y="276" width="26" height="14" rx="7" fill="#fff"/><rect x="230" y="276" width="26" height="14" rx="7" fill="#fff"/>
+<path d="M112 270 Q170 236 228 270Z" fill="#161616" stroke="#fff" stroke-width="8" stroke-linejoin="round"/>
+<circle cx="170" cy="247" r="8" fill="#fff"/>
+</g>
+<!-- flame -->
+<path d="M170 410 C132 404 132 366 150 350 C150 366 160 372 166 370 C158 354 170 340 176 330 C176 352 198 360 194 384 C192 398 184 408 170 410Z" fill="#FF6A1A"/>
+<path d="M170 408 C152 404 154 384 164 376 C166 388 174 388 178 382 C184 392 182 406 170 408Z" fill="#FFC72C"/>
+<!-- basket veg -->
+<g>
+<ellipse cx="300" cy="268" rx="26" ry="14" fill="#2E9E3F" transform="rotate(-30 300 268)"/>
+<ellipse cx="352" cy="252" rx="28" ry="15" fill="#43B84A" transform="rotate(14 352 252)"/>
+<ellipse cx="398" cy="272" rx="26" ry="14" fill="#2E9E3F" transform="rotate(34 398 272)"/>
+<path d="M372 244 L402 296 L384 300 L362 262Z" fill="#FF8A1F"/><path d="M372 244 l-6 -14 M372 244 l6 -14" stroke="#43B84A" stroke-width="6" stroke-linecap="round"/>
+<circle cx="322" cy="288" r="23" fill="#E5382B"/><path d="M314 268 q8 -8 16 0 q-8 4 -16 0Z" fill="#2E9E3F"/>
+</g>
+<!-- basket -->
+<path d="M282 296 L408 296 L392 384 Q390 392 380 392 L310 392 Q300 392 298 384Z" fill="#FFC72C"/>
+<rect x="268" y="290" width="154" height="20" rx="8" fill="#FFD84D"/>
+<g fill="#0B4B35"><rect x="304" y="322" width="10" height="52" rx="5"/><rect x="326" y="322" width="10" height="52" rx="5"/><rect x="348" y="322" width="10" height="52" rx="5"/><rect x="370" y="322" width="10" height="52" rx="5"/></g>
+<path d="M280 292 C274 250 306 238 322 262" fill="none" stroke="#161616" stroke-width="9" stroke-linecap="round"/>
+<!-- swoosh + leaves -->
+<path d="M112 398 Q256 432 400 398" fill="none" stroke="#FFC72C" stroke-width="9" stroke-linecap="round"/>
+<g transform="translate(0 6)"><path d="M256 466 C226 464 214 440 218 426 C244 426 258 442 256 466Z" fill="#7ED321"/><path d="M256 466 C286 464 298 440 294 426 C268 426 254 442 256 466Z" fill="#43B84A"/></g>
+</svg>
