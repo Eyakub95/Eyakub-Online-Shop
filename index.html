@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>বাজার হিসাব</title>
+<meta name="description" content="মেসের বাজার, রান্নার পালা ও রিয়ালের হিসাব — শুধু অ্যাডমিনের জন্য">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#0E3B2A">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="বাজার হিসাব">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600;800&amp;family=Hind+Siliguri:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body class="noapp">
+<div class="app">
+  <header class="top" id="top">
+    <img src="logo.svg" alt="" width="44" height="44">
+    <div class="ttl"><h1>বাজার হিসাব</h1><div class="sync" id="sync"></div></div>
+    <button class="hbtn" id="instbtn" type="button" aria-label="ইনস্টল" hidden><svg viewBox="0 0 24 24"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg></button>
+    <button class="hbtn" data-act="settings" type="button" aria-label="সেটিংস"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+  </header>
+  <main id="view" class="view" aria-live="polite"><div class="empty">লোড হচ্ছে…</div></main>
+</div>
+<nav class="tabs" aria-label="প্রধান মেনু"><div class="in" id="nav"></div></nav>
+<div id="toast" hidden></div>
+<div id="sheet" hidden></div>
+<script src="js/config.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
